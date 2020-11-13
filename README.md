@@ -1,4 +1,4 @@
-# Exercice1FrancoisBrassart
+# Liste Projets Digital Factory
 
 Projet Angular permettant d'afficher, trier et rechercher dans la liste des projets de la Digital Factory de Capgemini Lille.
 
