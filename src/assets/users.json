@@ -1,0 +1,14 @@
+{
+	"users": [
+		{
+            "prenom":"François",
+            "nom":"Brassart",
+            "fonction":"Stagiaire"
+          },
+          {
+            "prenom":"Marc",
+            "nom":"Dupont",
+            "fonction":"Ingénieur"
+          }
+	]
+}

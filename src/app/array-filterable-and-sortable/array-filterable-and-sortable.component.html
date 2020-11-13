@@ -1,0 +1,24 @@
+<div id="projets">
+  <table cellpadding="20" width="100%">
+    <tr>
+      <th *ngFor="let header of headers" class="header">
+        {{header.header_name}}
+        <button *ngIf="header.sortable" class="btn" (click)="onSort(header.header_id)">
+          <img *ngIf="sortedBy!=null && (sortedBy[0]==header.header_id && sortedBy[1]==1)" src="../assets/images/up-chevron.png" width="10" height="10">
+          <img *ngIf="sortedBy==null || sortedBy[0]!=header.header_id || (sortedBy[0]==header.header_id && sortedBy[1]==-1)" src="../assets/images/down-chevron.png" width="10" height="10">
+        </button>
+        <div *ngIf="header.filtrable" class="dropdown">
+          <button class="dropbtn">
+            <img src="../assets/images/down-chevron.png" width="10" height="10">
+          </button>
+          <div class="dropdown-content">
+            <a *ngFor="let filter of header.filters" (click)="onFilter(header.header_id,filter)">{{filter}}</a>
+          </div>
+        </div>
+      </th>
+    </tr>
+    <tr *ngFor="let projet of projets" >
+      <th *ngFor="let header_id of header_ids" [ngClass]="projet.selected == 1 ? 'selected': ''" >{{projet[header_id]}}</th>
+    </tr>
+  </table>
+</div>

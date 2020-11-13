@@ -1,0 +1,30 @@
+{
+    "headers":
+    [
+        {
+            "header_id": "id",
+            "header_name":"id",
+            "sortable":1, 
+            "filtrable":0          
+        },
+        {
+            "header_id":"nom",
+            "header_name":"Nom",
+            "sortable":1, 
+            "filtrable":0          
+        },
+        {
+            "header_id":"technologies",
+            "header_name":"Technologies",
+            "sortable":1, 
+            "filtrable":0          
+        },
+        {
+            "header_id":"projet_client",
+            "header_name":"Projet client (Oui/Non)",
+            "sortable":0, 
+            "filtrable":1,
+            "filters":["Toutes","Oui","Non"]        
+        }
+    ]
+}

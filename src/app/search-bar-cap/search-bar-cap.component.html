@@ -1,0 +1,8 @@
+<div id="search">
+    <form #f="ngForm">
+        <div>
+            <input [placeholder]="placeholder" type="text" id="searchedString" class="form-control" name="searchedString" (input)="onChangeInput($event)" ngModel required>
+        </div>
+      </form>
+</div>
+

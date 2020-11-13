@@ -1,0 +1,42 @@
+.menu {
+    height: 100%;
+    width: 0;
+    max-width:250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0070ad;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+  }
+  
+  .menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: calc(10px + 1vw);
+    color: #2B0A3D;
+    display: block;
+    transition: 0.3s;
+    cursor:pointer;
+  }
+  
+  .menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  #open-menu{
+    font-size:calc(10px + 1vw);
+    cursor:pointer;
+    padding-left:1vw;
+  }

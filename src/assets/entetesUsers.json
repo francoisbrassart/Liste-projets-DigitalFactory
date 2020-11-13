@@ -1,0 +1,24 @@
+{
+    "headers":
+    [
+        {
+            "header_id": "prenom",
+            "header_name":"Prénom",
+            "sortable":1, 
+            "filtrable":0          
+        },
+        {
+            "header_id":"nom",
+            "header_name":"Nom",
+            "sortable":1, 
+            "filtrable":0          
+        },
+        {
+            "header_id":"fonction",
+            "header_name":"Fonction",
+            "sortable":0, 
+            "filtrable":1,
+            "filters":["Toutes","Stagiaire","Ingénieur"]          
+        }
+    ]
+}

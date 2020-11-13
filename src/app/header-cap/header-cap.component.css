@@ -1,0 +1,35 @@
+#header{
+    overflow: auto;
+    background-color: #c0c0c0;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+.header-left {
+    float: left;
+    padding-top:1vh;
+  }
+.header-center{
+    text-align:center;
+    color:#2B0A3D;
+    display:inline-block;
+    font-size: calc(10px + 1vw);
+    font-family:Verdana;
+}
+
+#imgleft1{
+    float:left;
+    padding-left:20vw;
+}
+#imgright1{
+    float:right;
+    padding-right:20vw;
+}
+.img{
+    padding-top:1vh;
+    padding-bottom: 1vh;
+    vertical-align:middle;
+    width:4vw;
+    height:4vw;
+    min-width:25px;
+    min-height:25px;
+}

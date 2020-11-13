@@ -1,0 +1,23 @@
+#search{
+  padding: 25px 50px 0px;
+}
+
+input[type=text] {
+  width:calc(150px + 7vw);
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: calc(5px + 0.7vw);
+  background-color: white;
+  background-image: url(../../assets/images/search.png);
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  background-size: 15px 15px;
+  outline: none;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
